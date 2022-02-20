@@ -18,6 +18,17 @@ class _Parcial1State extends State<Parcial1> {
       title: "Parcial 1 - 25-5295-2017",
       home: Scaffold(
         appBar: AppBar(
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(
+                Icons.engineering,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                // do something
+              },
+            )
+          ],
           title: Text("Parcial 1 - 25-5295-2017"),
         ),
         body: Container(
